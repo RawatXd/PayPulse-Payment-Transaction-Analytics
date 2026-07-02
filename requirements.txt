@@ -1,0 +1,15 @@
+# PayPulse — Python dependencies
+
+# Phase 2/4 — data generation, database build, cleaning + feature engineering
+pandas>=2.0
+numpy>=1.24
+
+# Phase 4/5 — analytics notebooks (EDA + statistics)
+matplotlib>=3.7
+seaborn>=0.12
+scipy>=1.10
+
+# Notebook execution (build/run the .ipynb files)
+nbformat>=5.9
+nbconvert>=7.0
+ipykernel>=6.0
