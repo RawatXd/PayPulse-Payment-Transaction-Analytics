@@ -1,10 +1,6 @@
 # PayPulse — End-to-End UPI & Digital Payments Analytics Platform
 
-A portfolio-grade analytics project that simulates a Data Analyst's workflow at a
-digital-payments company (PhonePe / Paytm / Razorpay style). It takes **synthetic
-but realistic UPI transaction data** all the way from raw records → SQL database →
-analysis → dashboard-ready star schema, and surfaces the business insights a
-product/finance team actually uses.
+PayPulse is a data analytics project that analyzes digital payment transactions using SQL and Python. The project performs data cleaning, exploratory data analysis (EDA), feature engineering, and business analytics to uncover customer behavior, merchant performance, transaction success rates, and revenue trends. The insights generated help identify operational improvements and support data-driven decision-making.
 
 > This folder is self-contained and unrelated to the Tally reconciliation work in
 > the parent directory. Everything here lives under `paypulse/`.
