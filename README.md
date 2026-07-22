@@ -235,24 +235,6 @@ Revenue per Transaction = DIVIDE([Total Revenue], [Total Transactions], 0)
 ```
 
 ---
-
-## 🔄 How to Use
-
-### Access the Dashboard
-
-**Option 1: Live Power BI Cloud (Interactive)**
-1. Go to: [Power BI Cloud Link]
-2. Sign in with your Microsoft account
-3. Use date slicer to filter by period
-4. Click charts to cross-filter across pages
-5. Hover for tooltips with additional details
-
-**Option 2: Download & Open Locally**
-1. Download `PayPulse_Dashboard.pbix` from GitHub
-2. Open in Power BI Desktop (free version)
-3. Refresh data to latest export (Home → Refresh)
-4. Publish to your own Power BI workspace
-
 ### Key Interactions
 
 - **Date Slicer:** Applies across all pages (Jan 2023 – Dec 2025)
