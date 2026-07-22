@@ -1,22 +1,3 @@
-"""
-PayPulse — synthetic data generator  (Phase 2: Database Design / raw data)
-==========================================================================
-
-Produces seven internally-consistent CSVs under ``paypulse/data/raw/``:
-
-    banks.csv  devices.csv  merchants.csv  campaigns.csv
-    customers.csv  transactions.csv  cashback.csv
-
-Run:
-    python src/generate_data.py
-
-The transactions table is built one month at a time. For each month we take the
-*active* customer base (registered, not yet churned), size that month's volume
-from a compounding engagement curve, then vectorize every per-row attribute with
-NumPy. This keeps ~250K rows fast to generate while preserving realistic signals
-(growth, churn, bank-wise failures, peak hours, regional skew).
-"""
-
 from __future__ import annotations
 
 import numpy as np
